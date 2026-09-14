@@ -39,7 +39,7 @@ target_link_libraries(${PROJECT_NAME}
   ${std_srvs_TARGETS}
   tf2::tf2
   tf2_ros::tf2_ros
-  ${YAML_CPP_LIBRARIES}
+  yaml-cpp::yaml-cpp
 )
 
 rclcpp_components_register_node(
